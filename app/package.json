@@ -1,7 +1,7 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "drum-trainer",
+  "author": "Verena Zaiser",
+  "homepage": "http://verena-zaiser.de/",
   "private": true,
   "scripts": {
     "build": "ionic-app-scripts build",
@@ -30,7 +30,7 @@
     "zone.js": "^0.6.21"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "^0.0.33",
+    "@ionic/app-scripts": "^0.0.34",
     "typescript": "^2.0.3"
   },
   "description": "app: An Ionic project",

@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Practice
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <!-- practice list -->
+    <ion-list>
+        <ion-item *ngFor="let item of practices">
+            <ion-thumbnail item-left>
+                <img src="img/thumbnail-totoro.png">
+            </ion-thumbnail>
+            <h2>My Neighbor Totoro</h2>
+            <p>Hayao Miyazaki • 1988</p>
+            <button clear item-right>View</button>
+        </ion-item>
+    </ion-list>
+
+    <button ion-button icon-only>
+        <ion-icon name="add"></ion-icon>
+    </button>
+
+</ion-content>
